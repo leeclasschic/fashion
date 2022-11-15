@@ -1,0 +1,45 @@
+#wrap {}
+#header {display:flex;justify-content: space-between;padding:40px;}
+#header a {display:block;}
+#header .logo {font-size:40px;font-weight:500;}
+#header .menubar{display:flex;}
+#header .menubar a{padding:0 30px;display:block;}
+#header .menubar a:after {content:"";display:block;position:absolute;width:0;height:1px;background-color:rgba(0,0,0,0.5);}
+#header .menubar a:hover:after {width:80px;transition:0.5s;}
+#header .menubar a:last-child {padding-left:150px;}
+
+#main {}
+#main .main_con {margin-top:180px;display:flex;justify-content:flex-start;padding:0 40px;}
+#main .main_con .con{text-align:right;width:400px;margin-right:20px;}
+#main .main_con .con span {display:block;margin-bottom:5px;font-size:18px;}
+#main .main_con .con p {font-size:13px;margin-bottom:10px;font-weight:100;}
+#main .main_con .con a {display:block;}
+#main .main_con .right_txt {position:absolute;bottom:130px;right:40px;}
+#main .main_con .right_txt span {display:block;font-size:30px;font-weight:100;margin:-10px 0;text-align:right;}
+
+#main .con_menu {font-size:14px;margin-top:180px;display:flex;justify-content:center;}
+#main .con_menu a {display:block;margin:0 30px;}
+
+#main .con_wrap {width:1200px;margin:0 auto;padding:150px 0 0 0;}
+#main .con_mag .mag {margin-bottom:160px;text-align:center;}
+#main .con_wrap h3 {font-size:30px;font-weight:300;margin-bottom:15px;}
+#main .con_wrap span {display:block;font-size:14px;line-height:1.4;font-weight:100;}
+#main .con_wrap span.date {color:rgba(0,0,0,0.2);margin-top:12px;}
+#main .con_mag .btn_more {width:200px;height:40px;text-align:center;padding:10px 0;border:1px solid #000;margin:50px auto 70px auto;transition:0.5s;}
+#main .con_mag .btn_more:hover {background:#000000;color:#fff;}
+ 
+#main .con_wrap .mag01_wrap {margin:100px 0;display:flex;justify-content:flex-start;}
+#main .con_wrap .mag01_wrap strong {display:block;font-size:18px;margin-bottom:10px;font-weight:400;}
+#main .con_wrap .mag01_wrap p {line-height:1.4;font-size:14px;font-weight:100;}
+
+#main .con_wrap .mag01_02 {width:70%;margin:0 20px;}
+
+
+#main h2 {text-align:center;font-size:14px;margin-top:180px;}
+#main .ph_list {margin:150px auto;display:flex;justify-content:center;flex-wrap:wrap;flex-direction:row;overflow:hidden;}
+#main .ph_list img {width:350px;height:350px;margin:5px;}
+
+
+
+
+#footer .copyright {display:block;font-size:13px;font-weight:100;text-align:right;margin:40px;line-height:1.4;}
